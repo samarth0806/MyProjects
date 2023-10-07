@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .color
+      {
+        background-image: url('https://img.freepik.com/premium-photo/cropped-shot-minimal-workspace-with-laptop-computer-tree-pot-white-table-table_67155-3434.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .head
+      {
+        color:lightcoral;
+        font-size: 30px;
+        font-weight: bolder;
+        outline-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset class="color">
+        <legend align="center" class="head">Registration Form</legend>
+        <label>UserName<sup style="color: red">*</sup>:</label>
+        <input type="text" name="UserName" required />
+        <br /><br />
+        <label>Email :</label>
+        <input type="email" name="eml" />
+        <br /><br />
+        <label>Password :</label>
+        <input type="password" name="pwd" />
+        <br /><br />
+        <label>Phone no :</label>
+        <input type="text" name="phn" />
+        <br /><br />
+        <label>Gender :</label>
+        <input type="radio" name="gnd" />Male
+        <input type="radio" name="gnd" />Female
+        <input type="radio" name="gnd" />Others <br /><br />
+        <label> University : </label>
+        <select>
+          <option disabled selected>choose your University</option>
+          <option>SPPU</option>
+          <option>NMU</option>
+          <option>BATU</option>
+          <option>MU</option></select
+        ><br /><br />
+
+        <label>Dob :</label>
+        <input type="date" name="dob" />
+        <br /><br />
+        <label>Resume :</label>
+        <input type="file" name="resume" multiple />
+        <br /><br />
+        <label>time :</label>
+        <input type="time" name="time" /><br /><br />
+        <label>Date and time :</label>
+        <input type="datetime-local" name="time" /><br /><br />
+        <label>Month :</label>
+        <input type="month" name="mnth" /><br /><br />
+        <label>Week :</label>
+        <input type="week" name="wk" /><br /><br />
+        <label>Range :</label>
+        <input type="range" name="rng" /><br /><br />
+        <label>color :</label>
+        <input type="color" name="clr" /><br /><br />
+
+        <input type="checkbox" name="tnc" required />I agree all the terms and
+        conditions<br /><br />
+        <input type="submit" name="register" value="register" />
+        <input type="reset" name="cancle" />
+      </fieldset>
+    </form>
+  </body>
+</html>
